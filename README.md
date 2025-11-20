@@ -221,7 +221,7 @@ active (running)
 * index.html
 * about.html
 * contact.html
-
+<img width="655" height="212" alt="Image" src="https://github.com/user-attachments/assets/88a6a5f0-4a01-4ef4-aa33-94c598818533" />
 2. Скопировала на сервер:
 
 ```
