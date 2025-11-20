@@ -122,8 +122,6 @@ systemctl start nginx
 **Ответ: когда нужен detailed monitoring?**
 Когда важно получать метрики каждую минуту: высокие нагрузки, продакшн, диагностика задержек.
 
-**Скрин:** Status checks, Monitoring, System Log, Screenshot.
-
 ---
 
 ## **4.6. Задание 5 — Подключение по SSH**
