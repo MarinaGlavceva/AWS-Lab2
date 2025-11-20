@@ -53,13 +53,11 @@
 ## 2.2. Задание 1 — Создание IAM-группы и пользователя
 
 1. Открыла сервис IAM.
-2. Создала группу **Admins**.
-3. Привязала политику **AdministratorAccess**.
-
+2. Создала группу **Admins**. <img width="1546" height="127" alt="Image" src="https://github.com/user-attachments/assets/b5961d83-9151-4b81-8971-48b4b547609a" />
+3. Привязала политику **AdministratorAccess**. <img width="1537" height="301" alt="Image" src="https://github.com/user-attachments/assets/297988f3-9096-4c7c-b66c-2b439a365580" />
 **Ответ: Что делает политика AdministratorAccess?**
 Даёт полный доступ ко всем сервисам AWS.
-
-4. Создала IAM-пользователя **cloudstudent**, разрешила вход в консоль.
+4. Создала IAM-пользователя **cloudstudent**, разрешила вход в консоль. <img width="1553" height="107" alt="Image" src="https://github.com/user-attachments/assets/1db645d3-ec22-4efb-bbad-a2730c0d446c" />
 5. Вышла из root-аккаунта и вошла под IAM-пользователем.
 
 **Скрин:**
