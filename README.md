@@ -80,11 +80,12 @@
 
 - **Name:** `webserver`
 - **AMI:** Amazon Linux 2023 AMI  
-- **Instance type:** `t3.micro` (Free Tier)
+- **Instance type:** `t3.micro` (Free Tier) <img width="512" height="434" alt="Image" src="https://github.com/user-attachments/assets/47709d03-626a-406a-9d84-a7f61b2c4536" />
 - **Key pair:** создан новый ключ  
   - название: `marina-keypair`
   - тип: RSA  
   - формат: `.pem`
+ <img width="642" height="45" alt="Image" src="https://github.com/user-attachments/assets/7d31b6af-ae7b-4da0-87e2-47cd8836977a" />
 
  2. Создала security group:
 
@@ -102,18 +103,11 @@ systemctl enable nginx
 systemctl start nginx
 ```
 
-**Ответ: зачем User Data?**
-User Data позволяет выполнять команды автоматически при первом запуске виртуальной машины (применяется для автоматизации настройки).
+**Вопрос: зачем User Data?**
+Ответ : User Data позволяет выполнять команды автоматически при первом запуске виртуальной машины (применяется для автоматизации настройки).
 
-**Ответ: зачем nginx?**
-Это веб-сервер, который обслуживает HTTP-запросы.
-
-**Скрин:**
-– параметры Launch Instance
-– статус Running
-– Public IP
-– страница Welcome to nginx
-
+**Вопрос: зачем nginx?**
+Ответ :Это веб-сервер, который обслуживает HTTP-запросы.
 ---
 
 ## **4.5. Задание 4 — Логирование и мониторинг**
