@@ -264,6 +264,7 @@ scp -i marina-keypair.pem -r php-site/* ec2-user@IP:/tmp
 ```
 sudo cp /tmp/*.php /usr/share/nginx/html/
 ```
+<img width="962" height="302" alt="Image" src="https://github.com/user-attachments/assets/6e515685-83bb-42c9-a3cc-d276812fb086" />
 
 4. Установила PHP:
 
@@ -285,18 +286,18 @@ sudo systemctl start php-fpm
 sudo nginx -t
 sudo systemctl restart nginx
 ```
-
+<img width="962" height="183" alt="Image" src="https://github.com/user-attachments/assets/600e7acb-3caf-46a3-b451-4078de6cf9b2" />
 7. Открыла сайт:
 
 ```
 http://IP/index.php
 ```
 
-**Скрин:** твоя PHP-страница работает.
+<img width="962" height="373" alt="Image" src="https://github.com/user-attachments/assets/ee1092a3-c1b8-416c-a010-030d1fb55559" />
 
 ---
 
-# **4.9. Задание 7 — Остановка EC2 через CLI**
+# **Задание 7 — Остановка EC2 через CLI**
 
 ### Подключилась в AWS CloudShell
 
